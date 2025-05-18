@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    color: #595959;
+    font-family: "gilda display";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 100%;
+    
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    }
+    .brand {
+        color: #25A59E;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 100%;
+        letter-spacing: 10%;
+    }
+    .menu-icon{
+        font-size: 1.5rem;
+    }
+    .main-section img {
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
+    .destination {
+        text-align: center;
+        padding: 2rem 0;
+
+    }
+    .destination .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .card {
+        background: #f7f7f7;
+        border-radius: 10px;
+        overflow: hidden;
+        padding-bottom: 1rem;
+    }
+    .card {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .destination h3 {
+        margin: 1rem;
+        text-align: left;
+        font-family: Gilda Display;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: 0%;
+
+    }
+    .destination p {
+        text-align: left;
+        margin: 1rem;
+        font-family: "Urbanist";
+        
+    }
+
+    
+    .card h4 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 1rem;
+        color: #262626;
+    }
+    .Location-Icon{
+        display: flex;
+        justify-content: inline;
+        text-align: center;
+        margin: 1rem;
+        gap: 1rem;
+    }
+    .card p {
+        font-size: 0.9rem;
+    }
+    .why-us {
+        margin: 1.5rem;
+        text-align: center;
+
+    }
+    .why-us .features {
+        margin: 1.5rem;
+        text-align: left;
+        font-family: Urbanist;
+
+    }
+    .why-us .special {
+        background: #e6f9f8;
+        padding: 10rem;
+        border-radius: 8px;
+    }
+    .features-special { 
+        width: 335;
+        height: 254;
+        padding-top: 28px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+        gap: 40px;
+        background-color: #25A59E;
+        color: #f7f7f7;
+        text-align: left;
+        }
+        .features-special .link {
+            color: white;
+            text-align: right;
+        }
+    .why-us a {
+        display: flex;
+        margin-top: 2rem;
+        color: #25A59E;
+         justify-content: flex-end;
+         
+    }
+    .memorable {
+        padding: 2rem 2rem;
+    }
+    .memorable h3 span {
+        color: #25A59E;
+    }
+    .memorable img {
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
+    span {
+        color: #25A59E;
+    }
+    .documentation {
+        text-align: center;
+        padding: 2rem;
+        
+
+    }
+    .documentation img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 1rem;
+    }
+    .offer {
+        text-align: left;
+        padding: 2rem ;
+    }
+    .offer button {
+        background: #25A59E;
+        color:  white;
+        padding: 0.6rem 1.5rem;
+        border: none;
+        border-radius:5px;
+        margin-top: 1rem;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 0;
+        background: #f0f0f0;
+        margin-top: 2rem;
+    }
+    .footer-brand {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #25A59E;
+    }
+    footer p {
+        font-size: 0.9rem;
+        margin: 0.5rem 0 1rem;
+        color: #595959;
+;
+    }
+    .social-icons a {
+        margin: 0 0.5rem;
+        color: #333;
+    }
+    .footer-nav{
+        margin-top: 1rem;
+    }
+    .footer-nav a {
+        margin: 0 0.5rem;
+        font-size: 0.9rem;
+        color: #666;
+        text-decoration: none;
+    }
